@@ -10,7 +10,7 @@
     const CONFIG = {
         REPO_OWNER: window.GITHUB_CONFIG?.REPO_OWNER || 'AdXbA-EEI3',
         REPO_NAME: window.GITHUB_CONFIG?.REPO_NAME || 'maseer-portal',
-        GITHUB_TOKEN: window.GITHUB_CONFIG?.GITHUB_TOKEN || '',
+        PAT_TOKEN: window.GITHUB_CONFIG?.GITHUB_TOKEN || '',
         FB_APP_ID: window.GITHUB_CONFIG?.FB_APP_ID || '',
         ISSUE_LABEL: 'client-registration',
         MAX_FILE_SIZE: 2 * 1024 * 1024, // 2MB
